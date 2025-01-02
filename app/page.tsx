@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
+
 export default function Home() {
   const [kyat, setKyat] = useState(""); // Start as an empty string for better user input handling
   const [baht, setBaht] = useState("");
