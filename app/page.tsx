@@ -10,7 +10,8 @@ export default function Home() {
   const [showQRCodeModal, setShowQRCodeModal] = useState(false); // State to control modal visibility
   const exchangeRate = 750 / 100000; // Updated exchange rate: 100000 Kyat = 750 Baht
 
-  const handleInputChange = (e) => {
+  // Explicitly type the event parameter
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     if (conversionMode === "kyat-to-baht") {
       setKyat(value);
