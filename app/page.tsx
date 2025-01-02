@@ -48,7 +48,7 @@ export default function Home() {
 
         {/* Today's Exchange Rate */}
         <div className="mt-4 text-lg font-medium text-gray-700">
-          <p>Today's Exchange Rate:</p>
+          <p>Today Exchange Rate:</p>
           <p className="text-xl font-semibold text-green-500">
             100,000 Kyat = 750 Baht
           </p>
